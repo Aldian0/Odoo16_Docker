@@ -30,7 +30,8 @@
         'views/menu.xml',
         'views/materi.xml',
         'views/provinsi.xml',
-
+        'views/kota.xml',
+        'views/kabupaten.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
