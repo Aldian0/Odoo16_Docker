@@ -29,6 +29,7 @@
         'views/templates.xml', 
         'views/menu.xml',
         'views/materi.xml',
+        'views/provinsi.xml',
 
     ],
     # only loaded in demonstration mode
