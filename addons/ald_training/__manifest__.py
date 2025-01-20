@@ -32,6 +32,7 @@
         'views/provinsi.xml',
         'views/kota.xml',
         'views/kabupaten.xml',
+        'views/desa.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
