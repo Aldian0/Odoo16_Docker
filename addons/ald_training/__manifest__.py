@@ -33,6 +33,7 @@
         'views/kota.xml',
         'views/kabupaten.xml',
         'views/desa.xml',
+        'views/ibukota.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

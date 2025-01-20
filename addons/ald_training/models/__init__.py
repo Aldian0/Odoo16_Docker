@@ -5,3 +5,4 @@ from . import provinsi
 from . import kota
 from . import kabupaten
 from . import desa
+from . import ibukota
