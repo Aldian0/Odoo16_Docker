@@ -6,3 +6,6 @@ from . import kota
 from . import kabupaten
 from . import desa
 from . import ibukota
+from . import kecamatan
+from . import rt
+from . import rw

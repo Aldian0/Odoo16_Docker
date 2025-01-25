@@ -34,6 +34,9 @@
         'views/kabupaten.xml',
         'views/desa.xml',
         'views/ibukota.xml',
+        'views/kecamatan.xml',
+        'views/rt.xml',
+        'views/rw.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
