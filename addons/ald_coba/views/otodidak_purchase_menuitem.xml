@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem
+        id="parent_otodidak_purchase_id"
+        name="pembelian"
+        sequence="10"/>
+        <menuitem
+            id="child_otodidak_purchase_id"
+            name="pembelian"
+            parent="ald_coba.parent_otodidak_purchase_id"
+            action="otodidak_purchase_action"
+            sequence="10"/>
+
+</odoo>
