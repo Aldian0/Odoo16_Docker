@@ -17,11 +17,11 @@ services:
     depends_on:
       - db
     ports:
-      - "11016:8069"
-      - "21016:8072" # live chat
+      - "13016:8069"
+      - "23016:8072" # live chat
     tty: true
     # command: odoo scaffold ald_purchase /mnt/extra-addons/
-    # command : --
+    command : --
     environment:
       - HOST=db
       - USER=odoo

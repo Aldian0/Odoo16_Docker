@@ -4,7 +4,7 @@
 
 <data >
 
-    <!-- otodidak.purchase action window -->
+    <!-- otodidak.purchase tree view -->
     <record id="otodidak_purchase_action" model="ir.actions.act_window">
         <field name="name">otodidak.purchase.action</field>
         <field name="type">ir.actions.act_window</field>
@@ -18,6 +18,25 @@
             </p><p>
                 <!-- More details about what a user can do with this object will be OK --> 
             </p>
+            </field>
+        </record>
+        <!-- otodidak.purchase form view -->
+        <record id="otodidak.purchase_action" model="ir.actions.act_window">
+            <field name="name">otodidak.purchase.action</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">otodidak.purchase</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_type">form</field>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+            <field name="target">{current}</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    <!-- Add Text Here -->
+                </p><p>
+                    <!-- More details about what a user can do with this object will be OK --> 
+                
+                </p>
             </field>
         </record>
     </data>
